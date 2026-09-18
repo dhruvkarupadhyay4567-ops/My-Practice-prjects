@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto&family=Montserrat&family=Poppins&family=Inter&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <title>product-categories</title>
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <div class="top">
+            <div class="top-bar-discount"></div>
+
+            <div class="top-bar-discount">
+                Sign up and get 20% off to your first order.
+                <span>Sign Up Now</span>
+            </div>
+
+            <div class="top-bar-discount">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="logo">
+                <a href="">SHOP.CO</a>
+            </div>
+
+            <div class="navigation">
+
+                <select name="#" id="#">
+                    <option value="#">Shop</option>
+                </select>
+
+                <ul>
+                    <li>On Sale</li>
+                    <li>New Arrivals</li>
+                    <li>Brands</li>
+                </ul>
+
+            </div>
+
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search For Products...">
+            </div>
+
+            <div class="header-icons">
+                <i class="fa-solid fa-magnifying-glass mobile-search"></i>
+                <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i class="fa-regular fa-circle-user"></i>
+            </div>
+
+        </div>
+    </header>
+
+    <section>
+        <div class="header-filter">
+            <ul>
+                <li><a style="color: #00000099;" href="./home.html">Home</a></li>
+                <span><i class="fa-solid fa-angle-right"></i></span>
+                <li><a href="#">Casual</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="shop-section">
+        <div class="container shop-container">
+            <button class="mobile-filter-btn">
+                <span>Filters</span>
+                <i class="fa-solid fa-sliders"></i>
+            </button>
+            <aside class="filter-sidebar">
+
+                <div class="filter-title">
+                    <h3>Filters</h3>
+                    <i class="fa-solid fa-sliders"></i>
+                </div>
+
+                <div class="filter-group category-list">
+                    <a href="#">T-shirts <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#">Shorts <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#">Shirts <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#">Hoodie <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#">Jeans <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-heading">
+                        <h4>Price</h4>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+
+                    <div class="price-slider">
+                        <div class="price-line"></div>
+                        <span class="price-dot left"></span>
+                        <span class="price-dot right"></span>
+                    </div>
+
+                    <div class="price-values">
+                        <span>$50</span>
+                        <span>$200</span>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-heading">
+                        <h4>Colors</h4>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+
+                    <div class="color-filter">
+                        <span class="filter-color green"></span>
+                        <span class="filter-color red"></span>
+                        <span class="filter-color yellow"></span>
+                        <span class="filter-color orange"></span>
+                        <span class="filter-color cyan"></span>
+                        <span class="filter-color blue"></span>
+                        <span class="filter-color purple"></span>
+                        <span class="filter-color pink"></span>
+                        <span class="filter-color white"></span>
+                        <span class="filter-color black"></span>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <div class="filter-heading">
+                        <h4>Size</h4>
+                        <i class="fa-solid fa-chevron-up"></i>
+                    </div>
+
+                    <div class="size-filter">
+                        <button>XX-Small</button>
+                        <button>X-Small</button>
+                        <button>Small</button>
+                        <button>Medium</button>
+                        <button>Large</button>
+                        <button>X-Large</button>
+                        <button>XX-Large</button>
+                        <button>3X-Large</button>
+                        <button>4X-Large</button>
+                    </div>
+                </div>
+
+                <div class="filter-group dress-filter">
+                    <div class="filter-heading">
+                        <h4>Dress Style</h4>
+                    </div>
+
+                    <a href="#">Casual <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#">Formal <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#">Party <i class="fa-solid fa-chevron-right"></i></a>
+                    <a href="#">Gym <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+
+                <button class="apply-filter">Apply Filter</button>
+
+            </aside>
+
+
+            <div class="products-area">
+
+                <div class="products-header">
+                    <h1>Casual</h1>
+
+                    <div class="products-sort">
+                        <span>Showing 1-10 of 100 Products</span>
+                        <label>
+                            Sort by:
+                            <select>
+                                <option>Most Popular</option>
+                                <option>Newest</option>
+                                <option>Price Low</option>
+                                <option>Price High</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="products-grid">
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/categorieimg1.png" alt="">
+                        </div>
+                        <h3>Gradient Graphic T-shirt</h3>
+                        <div class="product-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.5/5</span>
+                        </div>
+                        <strong>$145</strong>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/categorieimg2.png" alt="">
+                        </div>
+                        <h3>Pink Tipping Details</h3>
+                        <div class="product-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.5/5</span>
+                        </div>
+                        <strong>$180</strong>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/categorieimg3.png" alt="">
+                        </div>
+                        <h3>Black Striped T-shirt</h3>
+                        <div class="product-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5.0/5</span>
+                        </div>
+                        <div class="product-price">
+                            <strong>$120</strong>
+                            <del>$150</del>
+                            <small>-30%</small>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/categorieimg4.png" alt="">
+                        </div>
+                        <h3>Skinny Fit Jeans</h3>
+                        <div class="product-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>3.5/5</span>
+                        </div>
+                        <div class="product-price">
+                            <strong>$240</strong>
+                            <del>$260</del>
+                            <small>-20%</small>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/categorieimg5.png" alt="">
+                        </div>
+                        <h3>Checkered Shirt</h3>
+                        <div class="product-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.5/5</span>
+                        </div>
+                        <strong>$180</strong>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/categorieimg6.png" alt="">
+                        </div>
+                        <h3>Sleeve Striped T-shirt</h3>
+                        <div class="product-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>4.5/5</span>
+                        </div>
+                        <div class="product-price">
+                            <strong>$130</strong>
+                            <del>$160</del>
+                            <small>-30%</small>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/categorieimg7.png" alt="">
+                        </div>
+                        <h3>Vertical Striped Shirt</h3>
+                        <div class="product-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>5/5</span>
+                        </div>
+                        <div class="product-price">
+                            <strong>$212</strong>
+                            <del>$232</del>
+                            <small>-20%</small>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/categorieimg8.png" alt="">
+                        </div>
+                        <h3>Courage Graphic T-shirt</h3>
+                        <div class="product-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>4/5</span>
+                        </div>
+                        <strong>$145</strong>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="../images/categorieimg9.png" alt="">
+                        </div>
+                        <h3>Loose Fit Bermuda Shorts</h3>
+                        <div class="product-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>3/5</span>
+                        </div>
+                        <strong>$80</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="pagination">
+
+                    <button>
+                        <i class="fa-solid fa-arrow-left"></i>
+                        Previous
+                    </button>
+
+                    <div class="page-numbers">
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>...</span>
+                        <span>8</span>
+                        <span>9</span>
+                        <span>10</span>
+                    </div>
+
+                    <button>
+                        Next
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+
+
+    <footer class="footer-wrapper">
+
+        <div class="container">
+
+            <div class="newsletter-card">
+
+                <h2 class="newsletter-title">
+                    STAY UPTO DATE ABOUT<br>
+                    OUR LATEST OFFERS
+                </h2>
+
+                <form class="newsletter-form" onsubmit="event.preventDefault();">
+
+                    <div class="input-wrapper">
+
+                        <svg class="mail-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#808080"
+                            stroke-width="2">
+
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                            </path>
+
+                            <polyline points="22,6 12,13 2,6"></polyline>
+
+                        </svg>
+
+                        <input type="email" placeholder="Enter your email address" required>
+
+                    </div>
+
+                    <button type="submit" class="subscribe-btn">
+                        Subscribe to Newsletter
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <div class="footer-content">
+
+                <div class="footer-brand">
+
+                    <h3 class="logo">
+                        <a href="./home.html">SHOP.CO</a>
+                    </h3>
+
+                    <p class="brand-desc">
+                        We have clothes that suits your style and which you're proud to wear.
+                        From women to men.
+                    </p>
+
+                    <div class="social-icons">
+
+                        <a href="#" class="social-btn">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+
+                        <a href="#" class="social-btn active">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" class="social-btn">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="#" class="social-btn">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="footer-links-grid">
+
+                    <div class="link-column">
+
+                        <h4>COMPANY</h4>
+
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Works</a></li>
+                            <li><a href="#">Career</a></li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="link-column">
+
+                        <h4>HELP</h4>
+
+                        <ul>
+                            <li><a href="#">Customer Support</a></li>
+                            <li><a href="./product-detail.html">Delivery Details</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="link-column">
+
+                        <h4>FAQ</h4>
+
+                        <ul>
+                            <li><a href="#">Account</a></li>
+                            <li><a href="#">Manage Deliveries</a></li>
+                            <li><a href="#">Orders</a></li>
+                            <li><a href="#">Payments</a></li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="link-column">
+
+                        <h4>RESOURCES</h4>
+
+                        <ul>
+                            <li><a href="#">Free eBooks</a></li>
+                            <li><a href="#">Development Tutorial</a></li>
+                            <li><a href="#">How to - Blog</a></li>
+                            <li><a href="#">Youtube Playlist</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p class="copyright">
+                    Shop.co © 2000-2023, All Rights Reserved
+                </p>
+
+                <div class="payment-methods">
+
+                    <span class="pay-card">
+                        <img src="../images/Visa.png" alt="Visa">
+                    </span>
+
+                    <span class="pay-card">
+                        <img src="../images/Mastercard.png" alt="Mastercard">
+                    </span>
+
+                    <span class="pay-card">
+                        <img src="../images/Paypal.png" alt="Paypal">
+                    </span>
+
+                    <span class="pay-card">
+                        <img src="../images/ Pay.png" alt="Apple-pay">
+                    </span>
+
+                    <span class="pay-card">
+                        <img src="../images/G Pay.png" alt="G-Pay">
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+<script src="../script.js"></script>
+
+</html>
