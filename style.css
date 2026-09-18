@@ -724,6 +724,7 @@ main .container {
     .new-arival-grid-container {
         gap: 15px;
         padding-left: 20px;
+        padding-right: 20px;
     }
 
     .new-arival-grid-box {
