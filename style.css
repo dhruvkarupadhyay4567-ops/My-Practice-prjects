@@ -723,7 +723,7 @@ main .container {
 @media (max-width: 480px) {
     .new-arival-grid-container {
         gap: 15px;
-        padding-left: 10px;
+        padding-left: 20px;
     }
 
     .new-arival-grid-box {
